@@ -10,20 +10,30 @@ Most of the algorithms are from the Machine Learning A-Z course by Kirill Eremen
    It is the method of analyzing, filtering, transforming and encoding data so that a machine learning algorithm 
    can understand and work with the processed output.
    - Data Overview
+
    - Identify missing data
+
    - Identify outliers
+
    - Removing inconsistencies
 
 #### 2. Regression
+
 - Linear Regression
+
 - Multiple Linear Regression
+
 - Polynomial Regression
+
 - Support Vector Regression
+
 - Decision Tree Regression
+
 - Random Forest Regression
     
 
 #### 3. Classification
+
 - Logistic Regression
 
 - K-Nearest Neighbors(KNN)
@@ -39,8 +49,11 @@ Most of the algorithms are from the Machine Learning A-Z course by Kirill Eremen
 - Random Forest Classification
 
 #### 4. Clustering
+
 - K-Means Clustering
+
 - Hierarchical Clustering
+
 - DBSCAN Clustering [DBSCAN](https://github.com/memphis95/Machine-Learning-A-Z-Udemy/blob/main/4.%20Clustering/3.%20DBSCAN%20Clustering/clustering.ipynb)
     
 
