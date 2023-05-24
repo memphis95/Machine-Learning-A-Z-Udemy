@@ -83,18 +83,19 @@ Two main classes of techniques to approximate the ideal case of model selection
 Analytically scoring a candidate model using both its performance on the training dataset and the complexity of the model.
 
 Note : Training error is optimistically biased, therefore not a good basis of choosing a model. The performance can be penalized based on how optimistic the training error is believed to be. It is achieved using algorithm-specific methods, often linear, that penalize the score based on the complexity of the model.
-
+```
 Probabilistic model selection measures
-- Akaike Information Criterion (AIC)
-- Bayesian Information Criterion (BIC)
-- Minimum Description Length (MDL)
-- Structural Risk Minimization (SRM)
-
+* Akaike Information Criterion (AIC)
+* Bayesian Information Criterion (BIC)
+* Minimum Description Length (MDL)
+* Structural Risk Minimization (SRM)
+```
 - Resampling Methods : Choose a model via estimated out-of-sample error.
 estimate the performance of a model( the model development process) on out-of-sample data.
 It is achieved by splitting the training dataset into sub train and test sets, fitting a model on the sub train set, and evaluating it on test set. This process may then be repeated multiple times and the mean perofrmance across each trail is reported.
-
+```
 Resampling model selection methods 
 - Random trail/test splits
 - Cross-Validation(k-fold, LOOCV)
 - Bootstrap
+```
